@@ -272,9 +272,8 @@ export default function SalesFunnel() {
                         muted
                         playsInline
                       >
-                        <source src="./publichttps://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-HjVltp3zuvUu0ewDOYSrky1uhK14jO.mp4" type="video/mp4" />
-                        <source src="/publichttps://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-HjVltp3zuvUu0ewDOYSrky1uhK14jO.mp4" type="video/mp4" />
-                        <source src="logo.mp4" type="video/mp4" />
+                        <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-HjVltp3zuvUu0ewDOYSrky1uhK14jO.mp4" type="video/mp4" />
+                        <source src="/logo.mp4" type="video/mp4" />
                         Vídeo não disponível
                       </video>
                     </div>
@@ -347,9 +346,8 @@ export default function SalesFunnel() {
                         onLoadStart={() => console.log("[v0] Main video loading")}
                         onCanPlay={() => console.log("[v0] Main video can play")}
                       >
-                        <source src="./publichttps://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-HjVltp3zuvUu0ewDOYSrky1uhK14jO.mp4" type="video/mp4" />
-                        <source src="/publichttps://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-HjVltp3zuvUu0ewDOYSrky1uhK14jO.mp4" type="video/mp4" />
-                        <source src="logo.mp4" type="video/mp4" />
+                        <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-HjVltp3zuvUu0ewDOYSrky1uhK14jO.mp4" type="video/mp4" />
+                        <source src="/logo.mp4" type="video/mp4" />
                         Vídeo não disponível
                       </video>
                     </div>
@@ -555,18 +553,21 @@ export default function SalesFunnel() {
           </Card>
         </div>
 
-        <div className="fixed bottom-30 right-30 p-2 hidden md:block">
+        <div className="fixed bottom-8 right-8 p-2 hidden md:block">
           <video
             ref={footerVideoRef}
             className="w-32 h-32 object-cover rounded-lg border border-emerald-400"
             style={{ filter: "drop-shadow(0 0 8px #10b981)" }}
+            autoPlay
+            loop
+            muted
+            playsInline
             onError={() => console.log("[v0] Footer video failed")}
             onLoadStart={() => console.log("[v0] Footer video loading")}
             onCanPlay={() => console.log("[v0] Footer video can play")}
           >
-            <source src="./publichttps://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-HjVltp3zuvUu0ewDOYSrky1uhK14jO.mp4" type="video/mp4" />
-            <source src="/publichttps://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-HjVltp3zuvUu0ewDOYSrky1uhK14jO.mp4" type="video/mp4" />
-            <source src="logo.mp4" type="video/mp4" />
+            <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-HjVltp3zuvUu0ewDOYSrky1uhK14jO.mp4" type="video/mp4" />
+            <source src="/logo.mp4" type="video/mp4" />
             Vídeo não disponível
           </video>
         </div>
