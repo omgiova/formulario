@@ -5,9 +5,14 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'Mr. Giobot, o piloto automático do barbeiro',
+  description: 'Mr. Giobot - Por Giovani Amorim',
+  generator: 'MR. GIOBOT',
+  icons: {
+    icon: '/icon3.png',
+    shortcut: '/icon3.png',
+    apple: '/icon3.png',
+  },
 }
 
 export default function RootLayout({
